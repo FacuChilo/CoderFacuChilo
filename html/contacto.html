@@ -4,49 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Estilos adicionales personalizados si los necesitas */
+        #mediosde {
+            text-align: center;
+        }
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        #waplogo,
+        #linklogo {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    
-    <header class="arriba">
+    <header class="bg-dark py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../imagenes/logo.png" alt="logo" id="logo" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/sobremi.html">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/formacion.html">Formación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-        <a href="../index.html"><img src="../imagenes/logo.png" alt="logo" id="logo"></a>
-        
-        <a href="../html/sobremi.html" class="links">Sobre Mí</a>
-    
-        <a href="../html/formacion.html" class="links">Formación</a>
-    
-        <a href="../html/proyectos.html" class="links">Proyectos</a>
-    
-        <a href="../html/contacto.html" class="links">Contacto</a>
+    <div class="container mt-5">
+        <h1 class="text-center">CONTACTO</h1>
+
+        <h2 id="mediosde">MEDIOS DE CONTACTO</h2>
         <br>
-        </header>
-        <br><br><br><br><br><br><br><br>
-        <h1>CONTACTO</h1>
+        <img src="../imagenes/whatsapp.png" alt="whatsapp" id="waplogo">
+        <a href="https://wa.me/3415863597" class="d-block text-center">Enviame un mensaje</a>
+        <br>
+        <img src="../imagenes/linkedin.png" alt="linkedin" id="linklogo">
+        <a href="https://ar.linkedin.com/in/facundo-chilotegui-16a3422b0" class="d-block text-center">Mi linkedin</a>
+        <br>
+    </div>
 
-    <h2 id="mediosde">MEDIOS DE CONTACTO</h2>
-    <br>
-    <img src="../imagenes/whatsapp.png" alt="whatsapp" id="waplogo">
-    <a href="https://wa.me/3415863597">Enviame un mensaje</a>
-    <br>
-    <img src="../imagenes/linkedin.png" alt="linkedin" id="linklogo">
-    <a href="https://ar.linkedin.com/in/facundo-chilotegui-16a3422b0">Mi linkedin</a>
-    <br>
-    
-    <br>
-    <br>
-    <footer>
-        <a href="https://wa.me/3415863597">Whatsapp</a>
-        <a href="https://ar.linkedin.com/in/facundo-chilotegui-16a3422b0">Linkedin</a>
-        <a href="mailto:chilofacu@gmail.com">Correo electrónico</a>
+    <footer class="bg-dark py-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-center">
+                    <a href="https://wa.me/3415863597" class="text-white">Whatsapp</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="https://ar.linkedin.com/in/facundo-chilotegui-16a3422b0" class="text-white">Linkedin</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="mailto:chilofacu@gmail.com" class="text-white">Correo electrónico</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
