@@ -1,0 +1,22 @@
+.acordeon{
+    .logoformacion {
+        width: 190px;
+        height: auto;
+        margin-left: 10px;
+    }
+    
+    .accordion-button {
+        &:focus {
+            box-shadow: none;
+            background-color: rgb(114, 114, 113);
+        }
+        & {
+            background-color: rgb(114, 114, 113);
+        }
+    }
+    
+    .accordion-item {
+        background-color: grey;
+    }
+    
+}

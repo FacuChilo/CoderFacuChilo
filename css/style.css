@@ -1,185 +1,142 @@
-/* FUENTES */
+.nav-link {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: grey;
+  margin-right: 20px;
+}
+.nav-link:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 1s, color 1s;
+}
+.nav-link img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-links {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: grey;
+  padding: 10px 20px;
+}
+.footer-links:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 2s, color 2s;
+}
+
+body {
+  background-color: whitesmoke;
+}
+body h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(169, 62, 62, 0.5);
+}
+body a {
+  text-decoration: none;
+}
 
 .anta-regular {
-    font-family: "Anta", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
- 
-  
+
 .lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-  
-/* BODY */
-
-body{
-    background-color: whitesmoke;   
+.general img {
+  width: 300px;
+  height: auto;
 }
-
-h1{
-    font-family: "Lato", sans-serif;
-    font-size: 80px;
-    text-align: center;
-    text-shadow: 4px 4px 4px rgba(169, 62, 62, 0.5);
+.general a {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Lato", sans-serif;
+  color: blue;
 }
-
-a{
-    text-decoration: none;
+.general a:hover {
+  font-size: 25px;
+  transition: font-size 1s;
 }
-
-/* HEADER */
-
-.nav-link{
-    font-family: "Lato", sans-serif;
-    font-size: 25px;
-    color: grey;
-    margin-right: 20px;
+.general span {
+  color: grey;
 }
-
-.nav-link:hover{
-    background-color: grey; 
-    color: white;
-    border-radius: 5px;
-    transition: background-color 1s, color 1s;
-}
-
-#logo{
-    width: 100px;
-    height: auto;
-}
-
-/* FOOTER */
-
-.footer-links{
-    font-family: "Lato", sans-serif;
-    font-size: 25px;
-    color: grey;
-    padding: 10px 20px;
-}
-
-.footer-links:hover{
-    background-color: grey; 
-    color:white;
-    border-radius: 5px;
-    transition: background-color 2s, color 2s;
-}
-
-/* INDEX */
-
-#facundo{
-    width: 300px;
-    height: auto;
-}
-
-#sabermas {
-    font-size: 20px;
-    font-style: normal;
-    font-family: "Lato", sans-serif;
-    color: blue;
-}
-
-#sabermas:hover{
-    font-size: 25px;
-    transition: font-size 1s;
-}
-
-.destacado {
-    color: grey;
-}
-
-#parrafo {
-    font-family: "Lato", sans-serif;
-    font-size: 40px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.general p {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .container.mt-5 {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
-/* SOBRE MÍ*/
-
-.presentacion { /* Este estilo tambien lo uso en formacion.html y presentacion.html */
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-size: 27px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-bottom: 3px solid #ccc;
-    padding-bottom: 15px;
+.container.mt-4 {
+  padding-top: 150px;
 }
 
-.container.mt-4{
-    padding-top: 150px;
+.proyprinc img {
+  width: 400px;
+  height: auto;
+}
+.proyprinc p {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
 }
 
-.card{
-    margin-right: 15px;
-    width: 18rem;
+h2 {
+  text-align: center;
 }
 
-.card-title{
-    font-weight: bold;
+.presentacion {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 27px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 15px;
 }
 
-#rosario{
-    width: auto;
-    height: 190px;
+.card {
+  margin-right: 15px;
+  width: 18rem;
+}
+.card img {
+  width: auto;
+  height: 190px;
+}
+.card .card-title {
+  font-weight: bold;
 }
 
-#tecnologia{
-    width: auto;
-    height: 190px;
+.acordeon .logoformacion {
+  width: 190px;
+  height: auto;
+  margin-left: 10px;
+}
+.acordeon .accordion-button:focus {
+  box-shadow: none;
+  background-color: rgb(114, 114, 113);
+}
+.acordeon .accordion-button {
+  background-color: rgb(114, 114, 113);
+}
+.acordeon .accordion-item {
+  background-color: grey;
 }
 
-/* FORMACIÓN */
-
-.logoformacion{
-    width: 190px;
-    height: auto;
-    margin-left: 10px;
-}
-
-.accordion-button:focus{
-    box-shadow: none;
-    background-color: rgb(114, 114, 113);
-}
-
-.accordion-item{
-    background-color: grey;
-}
-
-.accordion-button{
-    background-color: rgb(114, 114, 113);
-}
-
-/* PROYECTOS */
-
-#proyectos {
-    text-align: center;
-}
-
-#proyectos p {
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 30px;
-    font-family: "Lato", sans-serif;
-    font-size: 30px;
-}
-
-#enconstruccion{
-    width: 400px;
-    height: auto;
-}
-
-/* CONTACTO */
-
-#mediosde {
-    text-align: center;
-}
-
-
+/*# sourceMappingURL=style.css.map */

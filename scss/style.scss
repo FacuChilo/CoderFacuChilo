@@ -1,0 +1,25 @@
+//layout
+@import "./layout/header";
+
+@import "./layout/footer";
+
+//base
+@import "./base/reset";
+
+@import "./base/fuentes";
+
+//secciones
+@import "./secciones/index";
+
+@import "./secciones/sobremi";
+
+@import "./secciones/proyectos";
+
+@import "./secciones/contacto";
+
+//componentes
+@import "./componentes/presentacion";
+
+@import "./componentes/cards";
+
+@import "./componentes/acordeon";

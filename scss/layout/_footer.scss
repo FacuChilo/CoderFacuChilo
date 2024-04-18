@@ -1,0 +1,22 @@
+$font-family: "Lato", sans-serif;
+$base-font-size: 25px;
+$base-color: grey;
+$hover-background-color: grey;
+$hover-color: white;
+$transition-duration: 2s;
+$padding-vertical: 10px;
+$padding-horizontal: 20px;  //en esta parte cree variables para que sea mas fácil modificarlas si en algun momento las quiero cambiar
+
+.footer-links {
+    font-family: $font-family;
+    font-size: $base-font-size;
+    color: $base-color;
+    padding: $padding-vertical $padding-horizontal;
+
+    &:hover {
+        background-color: $hover-background-color; 
+        color: $hover-color;
+        border-radius: 5px;
+        transition: background-color $transition-duration, color $transition-duration;
+    }
+}
