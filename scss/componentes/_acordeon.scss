@@ -8,15 +8,25 @@
     .accordion-button {
         &:focus {
             box-shadow: none;
-            background-color: rgb(114, 114, 113);
+            background: rgb(127,127,134);
+            background: radial-gradient(circle, rgba(127,127,134,1) 0%, rgba(23,23,24,1) 100%);
         }
         & {
-            background-color: rgb(114, 114, 113);
+            background: rgb(127,127,134);
+            background: radial-gradient(circle, rgba(127,127,134,1) 0%, rgba(23,23,24,1) 100%);
         }
     }
     
     .accordion-item {
-        background-color: grey;
+        background: rgb(127,127,134);
+        background: radial-gradient(circle, rgba(127,127,134,1) 0%, rgba(23,23,24,1) 100%);
     }
     
+    strong{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
 }

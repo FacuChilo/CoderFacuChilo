@@ -1,28 +1,42 @@
-.card {
-    margin-right: 15px;
-    width: 18rem;
-    border: 2px solid black;
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
     background: rgb(127,127,134);
-    background: radial-gradient(circle, rgba(127,127,134,1) 0%, rgba(23,23,24,1) 100%);
+background: radial-gradient(circle, rgba(127,127,134,1) 0%, rgba(23,23,24,1) 100%);
+    border: 2px solid black;
+    
+    p{
+        
+        padding: 10px;
+        font-family: "Lato", sans-serif;
+        font-size: 40px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        
 
-    img{
-        width: auto;
-        height: 190px;
-    }
+        span{
+            color: grey;
+        }
+    }  
 
-    .btn{
+    a{
+        
         background-color: #7f7f86;
         border-radius: 5px;
-        border: 2px solid black;
         padding: 10px;
-        font-size: 20px;
+        font-size: 25px;
         font-style: normal;
         font-family: "Lato", sans-serif;
-        color: #afafaf;
+        color: white;
+
+        
+        transform: translate(190px , 20px);
+        
 
         box-shadow: 5px 6px 5px 1px rgba(0,0,0,0.76);
         -webkit-box-shadow: 5px 6px 5px 1px rgba(0,0,0,0.76);
         -moz-box-shadow: 5px 6px 5px 1px rgba(0,0,0,0.76);
+
+        
 
         transition: 0.5s;
         &:hover {
@@ -31,16 +45,8 @@
             -moz-box-shadow: 1px 0px 11px 7px rgba(237,215,19,0.75);
             color: rgba(237,215,19,0.75);
         }
-    }
 
-    .card-title {
-        font-weight: bold;
-    }
-
-    p{
-        color: #afafaf;
+        
+        
     }
 }
-
-
-
