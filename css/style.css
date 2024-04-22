@@ -116,6 +116,8 @@ h2 {
   border: 2px solid black;
   background: rgb(127, 127, 134);
   background: radial-gradient(circle, rgb(127, 127, 134) 0%, rgb(23, 23, 24) 100%);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .card img {
   width: auto;
