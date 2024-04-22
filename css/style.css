@@ -116,6 +116,8 @@ h2 {
   border: 2px solid black;
   background: rgb(127, 127, 134);
   background: radial-gradient(circle, rgb(127, 127, 134) 0%, rgb(23, 23, 24) 100%);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .card img {
   width: auto;
@@ -175,10 +177,11 @@ h2 {
 
 .cajas {
   display: flex;
-  flex-wrap: wrap;
-  background: rgb(127, 127, 134);
+  flex-direction: column;
+  align-items: center;
   background: radial-gradient(circle, rgb(127, 127, 134) 0%, rgb(23, 23, 24) 100%);
   border: 2px solid black;
+  margin-bottom: 40px;
 }
 .cajas p {
   padding: 10px;
@@ -197,16 +200,12 @@ h2 {
   font-style: normal;
   font-family: "Lato", sans-serif;
   color: white;
-  transform: translate(190px, 20px);
+  transform: translateY(25px);
   box-shadow: 5px 6px 5px 1px rgba(0, 0, 0, 0.76);
-  -webkit-box-shadow: 5px 6px 5px 1px rgba(0, 0, 0, 0.76);
-  -moz-box-shadow: 5px 6px 5px 1px rgba(0, 0, 0, 0.76);
   transition: 0.5s;
 }
 .cajas a:hover {
   box-shadow: 1px 0px 11px 7px rgba(237, 215, 19, 0.75);
-  -webkit-box-shadow: 1px 0px 11px 7px rgba(237, 215, 19, 0.75);
-  -moz-box-shadow: 1px 0px 11px 7px rgba(237, 215, 19, 0.75);
   color: rgba(237, 215, 19, 0.75);
 }
 
